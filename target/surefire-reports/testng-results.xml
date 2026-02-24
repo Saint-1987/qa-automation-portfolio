@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-23T23:38:32 GMT-05:00" name="Automation Suite" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="8618">
+    <groups>
+    </groups>
+    <test started-at="2026-02-23T23:38:32 GMT-05:00" name="UI Tests" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="8618">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:31 GMT-05:00" name="setupReport" finished-at="2026-02-23T23:38:32 GMT-05:00" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:32 GMT-05:00" name="setUp" finished-at="2026-02-23T23:38:35 GMT-05:00" duration-ms="3068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.invalidLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:32 GMT-05:00" name="setUp" finished-at="2026-02-23T23:38:35 GMT-05:00" duration-ms="3926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.validLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:35 GMT-05:00" name="invalidLoginTest" finished-at="2026-02-23T23:38:37 GMT-05:00" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:35 GMT-05:00" name="validLoginTest" finished-at="2026-02-23T23:38:37 GMT-05:00" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:37 GMT-05:00" name="tearDown" finished-at="2026-02-23T23:38:38 GMT-05:00" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:tests.LoginTest@3e58a80e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:37 GMT-05:00" name="tearDown" finished-at="2026-02-23T23:38:38 GMT-05:00" duration-ms="621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance:tests.LoginTest@3e58a80e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:tests.LoginTest@3e58a80e]" started-at="2026-02-23T23:38:40 GMT-05:00" name="flushReports" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CheckboxTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.CheckboxTest@9f116cc]" started-at="2026-02-23T23:38:37 GMT-05:00" name="setUp" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CheckboxTest.checkboxSelectionTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkboxSelectionTest()[pri:0, instance:tests.CheckboxTest@9f116cc]" started-at="2026-02-23T23:38:40 GMT-05:00" name="checkboxSelectionTest" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxSelectionTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckboxTest@9f116cc]" started-at="2026-02-23T23:38:40 GMT-05:00" name="tearDown" finished-at="2026-02-23T23:38:40 GMT-05:00" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkboxSelectionTest status=SUCCESS method=CheckboxTest.checkboxSelectionTest()[pri:0, instance:tests.CheckboxTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckboxTest -->
+      <class name="tests.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropdownTest@67d48005]" started-at="2026-02-23T23:38:32 GMT-05:00" name="setUp" finished-at="2026-02-23T23:38:35 GMT-05:00" duration-ms="2991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DropdownTest.selectDropdownOption()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDropdownOption()[pri:0, instance:tests.DropdownTest@67d48005]" started-at="2026-02-23T23:38:35 GMT-05:00" name="selectDropdownOption" finished-at="2026-02-23T23:38:36 GMT-05:00" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropdownOption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropdownTest@67d48005]" started-at="2026-02-23T23:38:36 GMT-05:00" name="tearDown" finished-at="2026-02-23T23:38:37 GMT-05:00" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectDropdownOption status=SUCCESS method=DropdownTest.selectDropdownOption()[pri:0, instance:tests.DropdownTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DropdownTest -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
