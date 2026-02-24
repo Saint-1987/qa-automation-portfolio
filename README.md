@@ -16,6 +16,26 @@ A modern, scalable, and parallel‑ready automation framework built using Java 2
 - Clean project structure
 - Easy to extend for API, mobile, or CI/CD
 
+## Project Structure
+
+Selenium-Java-Framework/
+├── src/main/java/
+│   ├── base/               # BaseTest with parallel execution + reporting
+│   ├── driver/             # DriverFactory (Chrome + Edge)
+│   ├── pages/              # Page Objects (modern style)
+│   ├── utils/              # WaitUtils, ConfigReader, Logger
+│   └── reports/            # ExtentManager
+│
+├── src/main/resources/
+│   ├── config.properties   # Browser + base URL
+   └── testdata/           # JSON test data (optional)
+│
+├── src/test/java/
+│   ├── tests/              # TestNG test classes
+│   └── testng.xml          # Parallel execution config
+│
+├── pom.xml
+└── README.md
 
 ## Tech Stack
 
